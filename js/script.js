@@ -37,7 +37,7 @@ async function enviarMensagem(){
 
     const dados = await resposta.json();
 
-    alert("Mensagem enviada com susseso! ID:"+dados.id);
+    alert("Sua Mensagem foi enviada com susseso!!! ID:"+dados.id);
 
     const lista = document.getElementById("listaMensagens");
     const item = document.createElement("li");
